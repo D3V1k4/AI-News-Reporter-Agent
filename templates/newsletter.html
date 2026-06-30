@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Daily AI Pulse</title>
+
+<style>
+
+body{
+    font-family:Arial,sans-serif;
+    background:#f4f4f4;
+    margin:40px;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+    background:white;
+    padding:40px;
+    border-radius:12px;
+}
+
+h1{
+    color:#2563eb;
+}
+
+.article{
+    border:1px solid #ddd;
+    padding:20px;
+    margin-bottom:25px;
+    border-radius:10px;
+}
+
+.score{
+    color:#0a7c2f;
+    font-weight:bold;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>📰 Daily AI Pulse</h1>
+
+<p>{{DATE}}</p>
+
+<h2>Executive Summary</h2>
+
+<p>{{SUMMARY}}</p>
+
+{{ARTICLES}}
+
+</div>
+
+</body>
+
+</html>
